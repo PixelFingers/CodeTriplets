@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - FeatherWalk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="glow">FeatherWalk</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mens.html">Men</a></li>
+                <li><a href="womens.html">Women</a></li>
+                <li><a href="children.html">Children</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="total">
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+        </div>
+        <button id="checkout">Proceed to Checkout</button>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+</html>
